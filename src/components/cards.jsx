@@ -1,34 +1,15 @@
-import { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 
 
-const Card = () => {
-  const [data, setData] = useState(null);
-  const [error, setError] = useState(null);
+const Card = ({data,buscar}) => {
 
-  const getData = async () => {
-    try {
-      let res = await fetch('https://api.disneyapi.dev/character');
-      if (!res.ok) throw { status: res.status, statusText: res.statusText };
-      let json = await res.json();
-      setData(json.data);
-    } catch (err) {
-      let mensaje = err.statusText || 'ocurrio un error';
-      setError(`Error ${err.status}: ${mensaje}`);
-    }
-  };
 
-  useEffect(() => {
-    getData();
-  }, []);
+  const filtrar = !buscar ? data : data.filter(el => el.films && el.films[0] && el.films[0].toLowerCase().includes(buscar.toLowerCase()))
 
-  if (error) {
-    return <h2>{error}</h2>;
-  }
 
   return (
     <ul className='w-full h-auto gap-x-7 gap-y-5 flex flex-wrap justify-center'>
-      {data && data.map((el) => (
+      {filtrar && filtrar.map((el) => (
         el.films[0]?(
           <Link key={el._id} to={`/${el.films[0].replace(/\s/g, '-')}`}>
             <li className='w-[250px] h-[400px] cursor-pointer hover:scale-105 border-2 shadow-md space-y-2 ease-in-out duration-300 rounded-xl' style={{borderColor:'var(--color-terceario)'}}>

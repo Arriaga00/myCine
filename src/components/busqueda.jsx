@@ -1,19 +1,19 @@
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faMagnifyingGlass } from "@fortawesome/free-solid-svg-icons"
-import { useState } from "react"
 
 const color = { 
     border: 'solid 1.5px var(--color-terceario)',
     background: 'var( --color-primario)'
 }
 
-function Busqueda () {
-    const [buscar,setBuscar] = useState('')
+function Busqueda ({buscar,setBuscar}) {
 
     const buscando = (e)=>{
       setBuscar(e.target.value)
     }
+
+
 
     return (
         <div className="flex justify-center items-center gap-2  pr-4">
