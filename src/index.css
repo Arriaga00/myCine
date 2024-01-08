@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root{
+    --color-primario: #0A1128;
+    --color-segundario: #001F54;
+    --color-terceario: #034078;
+    --color-Blanco:#FEFCFB;
+
+    background-color: var( --color-primario);
+    font-family:Poppins;
+    color: var(--color-Blanco);
+}
+
+@layer utilities {
+    .placeholder-center::placeholder {
+      text-align: center;
+      color: var(--color-Blanco);
+    }
+  }
+
+  
