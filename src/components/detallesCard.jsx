@@ -31,12 +31,11 @@ const DetallesCard = (props) => {
   return (
     <>
         <div className='flex text-2xl font-bold justify-between tracking-widest '>
-        <button className='rounded-full px-3 py-1 flex items-center ml-14 hover:-translate-y-2 hover:text-sky-700  ease-in-out duration-300' onClick={inicio}  style={color}> <FontAwesomeIcon icon={faArrowLeft} /></button>
+        <button className='rounded-full px-3 py-1 flex items-center  hover:-translate-y-2 hover:text-sky-700  ease-in-out duration-300' onClick={inicio}  style={color}> <FontAwesomeIcon icon={faArrowLeft} /></button>
         </div>
         {detalle && (
-          
           <section className="text-gray-400  body-font">
-          <div className="container pl-14 py-10 mx-auto flex flex-wrap">
+          <div className="container  py-10 mx-auto flex flex-wrap">
             <div className="lg:w-1/2 w-full mb-10 lg:mb-0 rounded-lg overflow-hidden">
               <img alt={detalle.imagen} className="object-cover object-center h-[436px] w-[576px]" src={detalle.imagen} />
             </div>
