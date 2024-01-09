@@ -40,24 +40,48 @@ const DetallesCard = (props) => {
               <img alt={detalle.imagen} className="object-cover object-center h-[436px] w-[576px]" src={detalle.imagen} />
             </div>
             <div className="flex flex-col flex-wrap lg:py-6 -mb-10 lg:w-1/2 lg:pl-12 lg:text-left text-center">
-              <div className="flex flex-col mb-10 lg:items-start items-center">
-                <div className="flex-grow">
-                  <h2 className="text-white text-lg title-font font-medium mb-3">Actores</h2>
+              <div className="flex flex-col mb-5 lg:items-start items-center">
+                <div className="flex-grow mb-10">
+                  <h2 className="text-white text-lg title-font font-medium mb-3   ">Actores</h2>
                   <p className="leading-relaxed text-base">{detalle.actores}</p>
                 </div>
               </div>
-              <div className="flex flex-col mb-10 lg:items-start items-center">
-                <div className="flex-grow">
+              <div className="flex flex-col mb-5 lg:items-start items-center">
+                <div className="flex-grow mb-10">
                   <h2 className="text-white text-lg title-font font-medium mb-3">Descripcion:</h2>
                   <p className="leading-relaxed text-base">{detalle.descripcion}</p>
                 </div>
               </div>
-              <div className="flex flex-col mb-10 lg:items-start items-center">
-                <div className="flex-grow">
-                  <h2 className="text-white text-lg title-font font-medium mb-3">Calificacion</h2>
-                  <p className="leading-relaxed text-base">{detalle.calificacion}</p>
+              <div className="flex flex-col mb-5 lg:items-start items-center w-full">
+                <div className="flex-grow flex flex-row justify-between gap-x-5">
+                  <div>
+                    <h2 className="text-white text-lg title-font font-medium mb-1">Calificacion</h2>
+                    <div className='flex'>
+                      <p className="leading-relaxed text-base mb-2">{detalle.calificacion}</p>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" className="text-[#edc748]" viewBox="0 0 24 24" fill="currentColor" role="presentation"><path d="M12 17.27l4.15 2.51c.76.46 1.69-.22 1.49-1.08l-1.1-4.72 3.67-3.18c.67-.58.31-1.68-.57-1.75l-4.83-.41-1.89-4.46c-.34-.81-1.5-.81-1.84 0L9.19 8.63l-4.83.41c-.88.07-1.24 1.17-.57 1.75l3.67 3.18-1.1 4.72c-.2.86.73 1.54 1.49 1.08l4.15-2.5z"></path></svg>
+                   </div>
+                  </div>
+                  <div>
+                    <h2 className="text-white text-lg title-font font-medium mb-1">Genero</h2>
+                    <div className='flex flex-col'>
+                      <p className="leading-relaxed text-base mb-2">{detalle.genero}</p>
+                    </div>
+                  </div>
+                  <div>
+                    <h2 className="text-white text-lg title-font font-medium mb-1">Duracion</h2>
+                    <div className='flex flex-col'>
+                      <p className="leading-relaxed text-base mb-2">{detalle.duracion}</p>
+                    </div>
+                  </div>
+                  <div>
+                    <h2 className="text-white text-lg title-font font-medium mb-1">Año</h2>
+                    <div className='flex flex-col'>
+                      <p className="leading-relaxed text-base mb-2">{detalle.año}</p>
+                    </div>
+                  </div>
                 </div>
               </div>
+
             </div>
           </div>
         </section>
