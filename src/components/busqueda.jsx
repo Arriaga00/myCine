@@ -16,7 +16,7 @@ function Busqueda ({buscar,setBuscar}) {
 
 
     return (
-        <div className="flex justify-center items-center gap-2  pr-4">
+        <div className="flex justify-center items-center gap-2 w-full pr-4">
           <label htmlFor="logo" className="p-2 cursor-pointer hover:scale-150 ease-in-out duration-300 mt-3">
             <FontAwesomeIcon icon={faMagnifyingGlass}  className=" text-xl text-bold "  style={{color: 'var(--color-terceario)'}}/>
           </label>

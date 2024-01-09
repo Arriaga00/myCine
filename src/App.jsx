@@ -37,10 +37,10 @@ function App() {
   return (
     <>
     <Router>
-    <header className='flex justify-between flex-wrap px-11'>
-      <Logo setTitulo={setTitulo}/>
-      <Busqueda  data={data} buscar={buscar} setBuscar={setBuscar}/>
-    </header>
+    <header className='flex justify-center flex-wrap px-11 w-full sm:flex-col sm:justify-center'>
+        <Logo setTitulo={setTitulo}/>
+        <Busqueda  data={data} buscar={buscar} setBuscar={setBuscar}/>
+      </header>
     <div className='mt-20 p-2' >
     <h1 className='flex text-2xl font-bold justify-center sm:justify-start sm:pl-16 tracking-widest mb-10' style={{color:'var(--color-blanco)'}}>{titulo}</h1>
     </div>
