@@ -12,7 +12,7 @@ const Card = ({data,buscar}) => {
       {filtrar && filtrar.map((el) => (
         el.films[0]?(
           <Link key={el._id} to={`/${el.films[0].replace(/\s/g, '-')}`}>
-            <li className='w-[250px] h-[400px] cursor-pointer hover:scale-105 border-2 shadow-md space-y-2 ease-in-out duration-300 rounded-xl' style={{borderColor:'var(--color-terceario)'}}>
+            <li className='w-[350px] h-[400px] cursor-pointer hover:scale-105 border-2 shadow-md space-y-2 ease-in-out duration-300 rounded-xl' style={{borderColor:'var(--color-terceario)'}}>
               <img src={el.imageUrl} alt={el._id}  className=' w-full h-4/5 rounded-t-lg '/>
               <p className='font-bold pt-4'>{el.films[0]}</p>
             </li>

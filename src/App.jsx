@@ -42,7 +42,7 @@ function App() {
       <Busqueda  data={data} buscar={buscar} setBuscar={setBuscar}/>
     </header>
     <div className='mt-20 p-2' >
-    <h1 className='flex text-2xl font-bold justify-start pl-16 tracking-widest mb-10' style={{color:'var(--color-blanco)'}}>{titulo}</h1>
+    <h1 className='flex text-2xl font-bold justify-center sm:justify-start sm:pl-16 tracking-widest mb-10' style={{color:'var(--color-blanco)'}}>{titulo}</h1>
     </div>
       <section className='p-2'>
         <Routes>
