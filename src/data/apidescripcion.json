@@ -1,0 +1,147 @@
+[
+    { "imagen" : "https://static.wikia.nocookie.net/disney/images/d/d3/Vlcsnap-2015-05-06-23h04m15s601.png",
+      "titulo": "Hercules (film)",
+      "actores": "Tate Donovan, Susan Egan, James Woods",
+      "descripcion": "Hércules, el hijo de Zeus y Hera, es despojado de su inmortalidad cuando es un bebé y debe convertirse en un verdadero héroe para recuperarla.",
+      "calificacion": "IMDb rating 7.3/10"
+    },
+    { "imagen": "https://static.wikia.nocookie.net/disney/images/0/05/Fox-disneyscreencaps_com-901.jpg",
+      "titulo": "The Fox and the Hound",
+      "actores": "Mickey Rooney as Tod and Kurt Russell as Copper",
+      "descripcion": "The Fox and the Hound is a 1981 American animated buddy drama film produced by Walt Disney Productions and loosely based on the 1967 novel of the same name by Daniel P. Mannix. It tells the story of the unlikely friendship between a red fox named Tod and a hound dog named Copper.",
+      "calificacion": "IMDb rating 7.2/10"
+    },
+    {
+      "imagen": "https://static.wikia.nocookie.net/disney/images/c/cb/1087603-44532-clp-950.jpg",
+      "titulo": "Cheetah",
+      "actores": "Keith Coogan, Lucy Deakins, Timothy Landfields, Colin Mothupi, Breon Gorman",
+      "descripcion": "Dos niños pasan sus vacaciones en Kenia, donde sus padres realizan un trabajo científico. Se hacen amigos de un joven del lugar y de un cachorro de guepardo que se ha quedado huérfano. Una vez que éste crece, un grupo de corruptos cazadores le secuestran para matarle y vender su piel. Los jóvenes requieren la ayuda de un guía nativo con el que cruzan el desierto de Kenia e intentar salvar al animal.",
+      "calificacion": "IMDb rating 5.9/10"
+    },
+    {
+      "imagen": "https://static.wikia.nocookie.net/disney/images/b/be/Marypoppins-disneyscreencaps_com-1086.jpg",
+      "titulo": "Mary Poppins (film)",
+      "actores": "Julie Andrews",
+      "descripcion": "La historia de una niñera mágica que aparece misteriosamente en un hogar problemático para hacerse cargo de la crianza de los dos hijos de un banquero y una sufragista ocupada.",
+      "calificacion": "IMDb rating 7,8/10"
+    },
+    {
+        "imagen": "https://static.wikia.nocookie.net/disney/images/b/b3/Ahadihead.png",
+      "titulo": "The Lion King",
+      "actores": "Donald Glover as Simba, Beyoncé as Nala",
+      "descripcion": "In Africa, the lion cub Simba is the pride and joy of his parents King Mufasa and Queen Sarabi. Mufasa prepares Simba to be the next king of the jungle. However, the naive Simba believes in his envious uncle Scar that wants to kill Mufasa and Simba to become the next king.",
+      "calificacion": "IMDb rating 6,8/10"
+    },
+    {
+        "imagen": "https://static.wikia.nocookie.net/disney/images/d/d3/Ambrose.jpg",
+      "titulo": "The Robber Kitten",
+      "actores": "Shirley Reed as Ambrose Kitten, Billy Bletcher as Dirty Bill[^5^][5]",
+      "descripcion": "A kitten named Ambrose is dreaming about running away and becoming a robber. Calling himself \"Butch\" at the beginning of the cartoon, he is seen play–acting a stagecoach robbery, which is interrupted by his mother calling for him to take a bath.",
+      "calificacion": "IMDb rating 6.4/10"
+    },
+    {
+        "imagen": "https://static.wikia.nocookie.net/disney/images/8/83/Tve8132-19531110-2244.jpg",
+      "titulo": "Ben and Me",
+      "actores": "Sterling Holloway as Amos Mouse, Charles Ruggles as Ben Franklin",
+      "descripcion": "In 1964, a young boy named Frank Walker attends the 1964 New York World's Fair to sell his prototype jet pack, but is rejected, as it does not work. Frank is approached by a young girl, Athena, who hands him an orange lapel pin with a blue \"T\" embossed on it, telling him to follow her onto Walt Disney 's \"It's a Small World\" attraction at the Fair's Pepsi-Cola Pavilion.",
+      "calificacion": "IMDb rating 7,4/10"
+    },
+    {
+        "imagen": "https://static.wikia.nocookie.net/disney/images/8/88/AshcanPete.PNG",
+      "titulo": "Homeward Bound II: Lost in San Francisco",
+      "actores": "Michael J. Fox, Sally Field, Ralph Waite[^2^][4]",
+      "descripcion": "Shadow, Sassy, y Chance están de vuelta. Han pasado tres años desde su travesía por el bosque y las montañas. Ahora sus dueños viven en San Francisco y están de vacaciones en Canadá. Solo hay un problema, las mascotas escapan del aeropuerto mientras son puestas en la bodega del avión. Ahora sus dueños están en Canadá y ellos están solos en San Francisco.",
+      "calificacion": "IMDb rating 5,9/10"
+    },
+    {
+        "imagen": "https://static.wikia.nocookie.net/disney/images/8/8b/Bedtime_stories_aspen.jpg",
+      "titulo": "Bedtime Stories",
+      "actores": "Adam Sandler",
+      "descripcion": "In the film, when a hotel handyman's stories to his niece and nephew come true, he keeps telling stories that become more outlandish.",
+      "calificacion": "IMDb rating 6/10 "
+    },
+    {
+        "imagen": "https://static.wikia.nocookie.net/disney/images/d/db/Athena_Tomorrowland.jpg",
+      "titulo": "Tomorrowland (film)",
+      "actores": "George Clooney, Hugh Laurie, Britt Robertson",
+      "descripcion": "In the film, a disillusioned genius inventor and a teenage science enthusiast embark to an intriguing alternate dimension known as \"Tomorrowland\", where their actions directly affect their own world.",
+      "calificacion": "IMDb rating 6,4/10 "
+    },
+    {
+        "imagen": "https://static.wikia.nocookie.net/disney/images/5/5d/Em4.jpg",
+      "titulo": "Return to Oz",
+      "actores": "Fairuza Balk, Nicol Williamson, Jean Marsh, Piper Laurie[^1^][1]",
+      "descripcion": "Dorothy Gale es rescatada de un experimento psiquiátrico por una misteriosa niña y de alguna manera es llamada de vuelta a Oz cuando una bruja vanidosa y el Rey Nome destruyen todo lo que hace hermosa a la tierra mágica.",
+      "calificacion": "IMDb rating 6,7/10"
+    },
+    {
+        "imagen": "https://static.wikia.nocookie.net/disney/images/3/31/Profile_-_Baloo.jpeg",
+      "titulo": "The Jungle Book",
+      "actores": "Neel Sethi",
+      "descripcion": "Mowgli, un niño criado por una familia de lobos, se embarca en un fascinante viaje de autodescubrimiento cuando se ve obligado a abandonar el único hogar que ha conocido.",
+      "calificacion": "IMDb rating 7,4/10"
+    },
+    {
+        "imagen": "https://static.wikia.nocookie.net/disney/images/4/40/Michael_Banks.gif",
+      "titulo": "Mary Poppins (film)",
+      "actores": "Julie Andrews",
+      "descripcion": "La historia de una niñera mágica que aparece misteriosamente en un hogar problemático para hacerse cargo de la crianza de los dos hijos de un banquero y una sufragista ocupada.",
+      "calificacion": "IMDb rating 7,8/10"
+    },
+    {
+        "imagen": "https://static.wikia.nocookie.net/disney/images/6/6d/Sword-in-stone-disneyscreencaps.com-8698.jpg",
+      "titulo": "The Sword in the Stone",
+      "actores": "Rickie Sorensen",
+      "descripcion": "Arthur (también conocido como Wart) es un joven que aspira a ser el escudero de un caballero. En una excursión de caza, se encuentra con Merlín, un anciano mago que se declara tutor de Arthur y regresa con él a su casa.",
+      "calificacion": "IMDb rating 7,1/10"
+    },
+    {
+        "imagen": "https://static.wikia.nocookie.net/disney/images/f/fb/Beheaded_Knight.png",
+      "titulo": "The Haunted Mansion (film)",
+      "actores": "Eddie Murphy",
+      "descripcion": "Un agente inmobiliario y su esposa e hijos son convocados a una mansión, que pronto descubren que está embrujada, y mientras intentan escapar, él aprende una importante lección sobre la familia que ha descuidado.",
+      "calificacion": "IMDb rating 5,2/10"
+    },
+    {
+        "imagen": "https://static.wikia.nocookie.net/disney/images/c/c0/Alan_Coleman.jpg",
+      "titulo": "Freaky Friday (2003 film)",
+      "actores": "Jamie Lee Curtis, Lindsay Lohan",
+      "descripcion": "La Dra. Tess Coleman y su hija adolescente Anna tienen una cosa en común: no se relacionan en nada.",
+      "calificacion": "IMDb rating 6,3/10"
+    },
+    {
+        "imagen": "https://static.wikia.nocookie.net/disney/images/5/51/Profile_-_Mr._Arrow.png",
+      "titulo": "Treasure Planet",
+      "actores": "Joseph Gordon-Levitt",
+      "descripcion": "Jim Hawkins es un adolescente rebelde que creció leyendo historias de piratas espaciales y anhela una emoción similar en su propia vida. Después de recibir un mapa de un pirata moribundo, se embarca en una odisea por el universo para encontrar el legendario Treasure Planet.",
+      "calificacion": "IMDb rating 7,2/10"
+    },
+    {
+        "imagen": "https://static.wikia.nocookie.net/disney/images/b/bc/CaptainAndersonCatFromSpace.jpg",
+      "titulo": "The Cat from Outer Space",
+      "actores": "Ken Berry, Sandy Duncan",
+      "descripcion": "Un gato extraterrestre aterriza en la Tierra, concretamente en una granja, cuando su nave espacial sufre una avería.",
+      "calificacion": "IMDb rating 6,0/10"
+    },
+    {
+        "imagen": "https://static.wikia.nocookie.net/disney/images/6/64/Images_%2812%29-0.jpg",
+      "titulo": "The Happiest Millionaire",
+      "actores": "Fred MacMurray",
+      "descripcion": "Es 1916 en THE HAPPIEST MILLIONAIRE, y John Lawless (Tommy Steele) es un inmigrante irlandés que ha llegado a Filadelfia. A través de una agencia de empleo, consigue un trabajo como mayordomo para el excéntrico millonario Anthony J. Drexel Biddle (Fred MacMurray) y su familia.",
+      "calificacion": "IMDb rating 6,5/10"
+    },
+    {
+        "imagen": "https://static.wikia.nocookie.net/disney/images/0/0e/Old-yeller-2-movie-collection-20060206040952451-000.jpg",
+      "titulo": "Savage Sam",
+      "actores": "Brian Keith, Tommy Kirk, Kevin Corcoran",
+      "descripcion": "Travis, Arliss, y Lisbeth son capturados por Apaches mientras el hijo de Old Yeller, Sam, sigue su rastro.",
+      "calificacion": "IMDb rating 6.0/10"
+    },
+    {
+        "imagen": "https://static.wikia.nocookie.net/disney/images/4/41/Athena_TLM.jpg",
+      "titulo": "The Little Mermaid: Ariel's Beginning",
+      "actores": "Jodi Benson, Samuel E. Wright, Jim Cummings, Sally Field",
+      "descripcion": "En el reino submarino de Atlántica, lleno de música y risas, el rey Tritón y su esposa, la reina Athena, tienen siete hijas jóvenes. Un día, mientras las sirenas se relajan en una laguna en la superficie, el rey Tritón le regala a la reina Athena una caja de música.",
+      "calificacion": "IMDb rating 6,1/10"
+    }
+  ]

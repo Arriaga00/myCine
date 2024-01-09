@@ -2,7 +2,7 @@ import './App.css'
 import Busqueda from './components/busqueda'
 import Logo from './components/logo'
 import Cards from './components/cards'
-import { BrowserRouter as Router, Route, Routes, } from "react-router-dom";
+import { BrowserRouter as Router, Route, Routes,} from "react-router-dom";
 import DetallesCard from './components/detallesCard';
 import { useState, useEffect } from 'react';
 
@@ -38,7 +38,7 @@ function App() {
     <>
     <Router>
     <header className='flex justify-between flex-wrap px-11'>
-      <Logo/>
+      <Logo setTitulo={setTitulo}/>
       <Busqueda  data={data} buscar={buscar} setBuscar={setBuscar}/>
     </header>
     <div className='mt-20 p-2' >
@@ -47,7 +47,7 @@ function App() {
       <section className='p-2'>
         <Routes>
             <Route path="/" exact element={<Cards data={data} buscar={buscar} />} />
-            <Route path="/:name" element={<DetallesCard setTitulo={setTitulo}/>} />
+            <Route path="/:name" element={<DetallesCard setTitulo={setTitulo} data={data} titulo={titulo}/>} />
         </Routes>
       </section>
 
